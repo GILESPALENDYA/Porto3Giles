@@ -1,0 +1,94 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.layout-left {
+    width: 60%;
+    padding: 80px 140px;
+}
+
+.layout-right {
+    width: 40%;
+    background-image: url(../images/lp2-img.png);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.brand {
+    color: #0A1B59;
+    margin-bottom: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 32px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    color: #113FE2;
+    background: rgba(17, 63, 226, 0.1);
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading {
+    color: #0A1B59;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 457px;
+    line-height: 60px;
+}
+
+.lead {
+    color: rgba(10, 27, 89, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 457px;
+    margin-bottom: 40px;
+}
+
+.invite-form {
+    display: flex;
+    
+}
+
+.invite-form input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(10, 27, 89, 0.2);
+    width: 590px;
+    height: 52px;
+}
+
+.invite-form button {
+    padding: 10px 30px 10px 30px;
+    color: #ffff;
+    background-color: #113FE2;
+    border-radius: 8px;
+    border: none;
+    flex-shrink: 0;
+
+}
+
+.form-helper {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(10, 27, 89, 0.6);
+}
